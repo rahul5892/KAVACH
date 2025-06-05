@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDS Dashboard</title>
+</head>
+<body>
+    <h1>Intrusion Detection Dashboard</h1>
+    
+    {% if chart_path %}
+        <img src="{{ chart_path }}" alt="Anomaly Pie Chart" style="height: 40px;">
+    {% else %}
+        <p>No anomalies detected yet.</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,9 @@
+tensorflow
+numpy
+pandas
+scapy
+sqlite3
+streamlit
+firebase-admin
+pickle-mixin
+watchdog
